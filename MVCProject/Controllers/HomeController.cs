@@ -137,7 +137,7 @@ namespace MVCProject.Controllers
                     db.SaveChanges();
                 }
 
-                return View("Success");
+                return View("Success", insuranceTotalD);
             }
 
         }
